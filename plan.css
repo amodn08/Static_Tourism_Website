@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  /* border: 0px; */
+}
+
+body {
+  background: linear-gradient(to bottom right, rgb(255, 0, 89), rgb(255, 0, 0));
+}
+
+.header {
+  /* text-align: center; */
+  color: aliceblue;
+  display: flex;
+  min-height: 200px;
+  font-family: serif;
+  font-size: xx-large;
+  /* Needed to position the navbar */
+  /* position: relative; */
+  background: linear-gradient(375deg, red, maroon);
+  /* background-image: url(MP_tourism_1.jpg); */
+  border-bottom: 5px white solid;
+  /* background-repeat: no-repeat; */
+}
+
+.header a {
+  padding-right: 10px;
+}
+
+form {
+  background: white;
+  border: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bolder;
+}
+
+th {
+  color: palevioletred;
+  font-size: 45px;
+}
+
+td{
+  padding: 5px;
+}
+/* body{
+    background-color: maroon;
+} */
+
+h1 {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+img {
+  margin-left: 30px;
+}
+
+.smbt {
+  margin-left: 500px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+}
+
+footer{
+  border-top: 5px white solid;
+  display: flex;
+  min-height: 300px;
+  /* Needed to position the navbar */
+  position: relative;
+  background: linear-gradient(375deg, red, maroon);
+}
+
+.footer{
+  margin: 50px;
+  display: flex;
+  padding: 15px;
+}
+
+.footer a{
+  padding: 25px;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: x-large;
+  border-left: 10px;
+}
+
+pre{
+  font-size: large;
+  margin-top: 10px;
+  border-top: 10px;
+  padding-top: 30px;
+  color: aliceblue;
+}
+
+.foooter input{
+  padding:15px;
+}

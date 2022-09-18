@@ -1,0 +1,218 @@
+* {
+  /* background: rgb(128, 0, 0); */
+  margin: 0px;
+  border: 0px;
+}
+
+nav {
+  display: flex;
+  min-height: 200px;
+  /* Needed to position the navbar */
+  position: relative;
+  background: linear-gradient(375deg, red, maroon);
+}
+
+a {
+  color: whitesmoke;
+  display: inline-block;
+  padding: 15px;
+  margin: 30px;
+  border: 5px;
+  text-decoration: none;
+  font-family: serif;
+  font-size: xx-large;
+}
+
+input {
+  width: 250px;
+  height: 33px;
+  border-radius: 5px;
+  margin: 0px 12px;
+  padding: 0px 12px;
+  background-color: aliceblue;
+}
+
+button {
+  background-color: aliceblue;
+  padding: 11px;
+  color: brown;
+  border-radius: 5px;
+}
+
+footer{
+  display: flex;
+  min-height: 300px;
+  /* Needed to position the navbar */
+  position: relative;
+  background: linear-gradient(375deg, red, maroon);
+}
+
+footer nav a{
+  margin-top: 10px;
+}
+
+pre{
+  font-size: large;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 10px;
+  padding-top: 30px;
+  color: aliceblue;
+}
+
+.img1 {
+  border: 8px solid white;
+  border-radius: 5px;
+  display: inline;
+  position: relative;
+  margin: 10px;
+  animation-name: slidel;
+  animation-direction: alternate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidel {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 750px;
+  }
+}
+
+.img2 {
+  border: 8px solid white;
+  border-radius: 5px;
+  display: inline;
+  position: relative;
+  margin: 10px;
+  animation-name: slider;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slider {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 400px;
+  }
+}
+
+#mptlg {
+  border: 0px;
+  margin-left: 40px;
+}
+
+.ujjain {
+  background: linear-gradient(to bottom right, rgb(255, 136, 0), white);
+  font-size: x-large;
+  font-family: cursive;
+  color: rgb(0, 0, 0);
+  border: 5px solid white;
+}
+
+.ujjain h1 {
+  font-size: 50px;
+  font-family: serif;
+  margin-left: 25px;
+  margin-top: 15px;
+  background-image: linear-gradient(to bottom left, rgb(255, 136, 0), black);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.ujjain li {
+  text-align: left;
+  margin: 25px;
+  margin-bottom: 20px;
+  font-family: cursive;
+}
+
+.bndhgrh {
+  background: linear-gradient(to bottom right, green, white);
+  font-size: x-large;
+  font-family: serif;
+  color: rgb(0, 0, 0);
+  border: 5px solid white;
+}
+
+.bndhgrh h1 {
+  font-size: 50px;
+  margin-left: 25px;
+  margin-top: 15px;
+  background-image: linear-gradient(to bottom left, green, black);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.bndhgrh li {
+  text-align: left;
+  margin: 25px;
+  margin-bottom: 20px;
+  font-family: cursive;
+}
+
+.pchmri {
+  background: linear-gradient(to bottom right, rgb(0, 195, 255), white);
+  font-size: x-large;
+  font-family: serif;
+  color: rgb(0, 0, 0);
+  border: 5px solid white;
+}
+
+.pchmri h1 {
+  font-size: 50px;
+  margin-left: 25px;
+  margin-top: 15px;
+  background-image: linear-gradient(to bottom left, rgb(0, 195, 255), black);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.pchmri li {
+  text-align: left;
+  margin: 25px;
+  margin-bottom: 20px;
+  font-family: cursive;
+}
+
+.amrkntk {
+  background: linear-gradient(to bottom right, purple, white);
+  font-size: x-large;
+  font-family: serif;
+  color: rgb(0, 0, 0);
+  border: 5px solid white;
+}
+
+.amrkntk h1 {
+  font-size: 50px;
+  margin-left: 25px;
+  margin-top: 15px;
+  background-image: linear-gradient(to bottom left, purple, black);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.amrkntk li {
+  text-align: left;
+  margin: 25px;
+  margin-bottom: 20px;
+  font-family: cursive;
+}
+
